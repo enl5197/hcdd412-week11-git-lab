@@ -27,4 +27,3 @@ def test_late_fee_within_grace_period():
 
 def test_late_fee_past_grace_period():
     assert late_fee(5, 0.50, grace_days=3) == 1.00
-    
